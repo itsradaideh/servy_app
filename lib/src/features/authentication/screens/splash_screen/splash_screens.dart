@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:servy_app2/src/constants/colors.dart';
-import 'package:servy_app2/src/constants/image_string.dart';
-import 'package:servy_app2/src/features/authentication/controllers/splash_screen_controller.dart';
+import 'package:servy_app/src/constants/colors.dart';
+import 'package:servy_app/src/constants/image_string.dart';
+import 'package:servy_app/src/features/authentication/controllers/splash_screen_controller.dart';
 
 class SplshScreen extends StatelessWidget {
   SplshScreen({super.key});

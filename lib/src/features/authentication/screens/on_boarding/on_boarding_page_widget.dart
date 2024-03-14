@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:servy_app2/src/features/authentication/models/model_on_boarding.dart';
+import 'package:servy_app/src/features/authentication/models/model_on_boarding.dart';
 
 class OnBoardingPageWidget extends StatelessWidget {
   const OnBoardingPageWidget({

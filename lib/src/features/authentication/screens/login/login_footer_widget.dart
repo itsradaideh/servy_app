@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:servy_app2/src/constants/image_string.dart';
+import 'package:servy_app/src/constants/image_string.dart';
 
 class LoginFooterWidget extends StatelessWidget {
   const LoginFooterWidget({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:servy_app2/src/constants/colors.dart';
-import 'package:servy_app2/src/constants/sizes.dart';
+import 'package:servy_app/src/constants/colors.dart';
+import 'package:servy_app/src/constants/sizes.dart';
 
 class ToutLineButtonTheme {
   ToutLineButtonTheme._(); //to avoid creating instance

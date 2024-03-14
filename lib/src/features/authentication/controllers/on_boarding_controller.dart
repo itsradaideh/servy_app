@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
 import 'package:liquid_swipe/PageHelpers/LiquidController.dart';
-import 'package:servy_app2/src/constants/colors.dart';
-import 'package:servy_app2/src/constants/image_string.dart';
-import 'package:servy_app2/src/constants/text.dart';
-import 'package:servy_app2/src/features/authentication/models/model_on_boarding.dart';
-import 'package:servy_app2/src/features/authentication/screens/on_boarding/on_boarding_page_widget.dart';
+import 'package:servy_app/src/constants/colors.dart';
+import 'package:servy_app/src/constants/image_string.dart';
+import 'package:servy_app/src/constants/text.dart';
+import 'package:servy_app/src/features/authentication/models/model_on_boarding.dart';
+import 'package:servy_app/src/features/authentication/screens/on_boarding/on_boarding_page_widget.dart';
 
 class OnBoardingController extends GetxController {
   final controller = LiquidController();

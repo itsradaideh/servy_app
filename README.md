@@ -1,4 +1,4 @@
-# servy_app2
+# servy_app
 
 A new Flutter project.
 

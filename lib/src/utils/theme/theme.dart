@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:servy_app2/src/utils/theme/widget_themes/elevated_button_theme.dart';
-import 'package:servy_app2/src/utils/theme/widget_themes/outlined_button_theme.dart';
+import 'package:servy_app/src/utils/theme/widget_themes/elevated_button_theme.dart';
+import 'package:servy_app/src/utils/theme/widget_themes/outlined_button_theme.dart';
 
 class TApptheme {
   TApptheme._();

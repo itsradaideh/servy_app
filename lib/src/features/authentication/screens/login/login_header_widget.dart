@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:servy_app2/src/constants/image_string.dart';
-import 'package:servy_app2/src/constants/text.dart';
+import 'package:servy_app/src/constants/image_string.dart';
+import 'package:servy_app/src/constants/text.dart';
 
 class LoginHeaderWidget extends StatelessWidget {
   const LoginHeaderWidget({
