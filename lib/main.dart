@@ -4,11 +4,11 @@ import 'package:servy_app2/src/features/authentication/screens/splash_screen/spl
 import 'package:servy_app2/src/utils/theme/theme.dart';
 
 void main() {
-  runApp(const Servy_app());
+  runApp(const ServyApp());
 }
 
-class Servy_app extends StatelessWidget {
-  const Servy_app({super.key});
+class ServyApp extends StatelessWidget {
+  const ServyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
