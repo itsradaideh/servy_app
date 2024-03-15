@@ -21,7 +21,7 @@ const String tOnBoardingCounter2 = "2/4";
 const String tOnBoardingCounter3 = "3/4";
 const String tOnBoardingCounter4 = "4/4";
 
-//--On Boarding Text--
+//--Welcome Screen Text
 
 const String tWelcomeTitle = "Build Servy Apps";
 const String tWelcomeSubTitle =
@@ -32,4 +32,11 @@ const String tWelcomeSubTitle =
 const String tLoginTitle = "Welcome Back";
 const String tLoginSubTitle = "Make it work, make it right, make it fast";
 const String tRemembarMe = "Remembar Me?";
-const String tAlreadyHaveAnAccount = "Already have an Account?";
+const String tDontHaveAnAccount = "Don't have an Account? ";
+
+//--Sign Up Screen Text
+
+const String tSignUpTitle = "Get On Board!";
+const String tSignUpSubTitle = "Create your profile to start your Journey with us...";
+const String tAlreadyHaveAnAccount = "Already have an Account? ";
+

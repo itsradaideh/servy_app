@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_core/get_core.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 import 'package:servy_app/src/constants/image_string.dart';
+import 'package:servy_app/src/constants/text.dart';
+import 'package:servy_app/src/features/authentication/screens/signup/signup_screen.dart';
 
 class LoginFooterWidget extends StatelessWidget {
   const LoginFooterWidget({
@@ -24,20 +28,19 @@ class LoginFooterWidget extends StatelessWidget {
             label: const Text("Sign In With Google"),
           ),
         ),
-        const SizedBox(
-          height: 10,
-        ),
         TextButton(
-          onPressed: () {},
+          onPressed: () => Get.to(() => const SignUpScreen()),
           child: const Text.rich(
             TextSpan(
-              text: "Dont Have An Account?  ",
-              style: TextStyle(
-                  fontFamily: 'Poppins',
-                  color: Colors.black,
-                  fontWeight: FontWeight.w400),
               children: [
-                TextSpan(text: 'Signup', style: TextStyle(color: Colors.blue)),
+                TextSpan(
+                  text: tDontHaveAnAccount,
+                  style: TextStyle(
+                      fontFamily: 'Poppins',
+                      color: Colors.black,
+                      fontWeight: FontWeight.w400),
+                ),
+                TextSpan(text: 'Signup'),
               ],
             ),
           ),

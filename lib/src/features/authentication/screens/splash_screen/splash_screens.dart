@@ -36,7 +36,7 @@ class SplshScreen extends StatelessWidget {
           Obx(
             () => AnimatedPositioned(
               duration: const Duration(milliseconds: 1600),
-              top: 220,
+              top: 120,
               left: splashController.animate.value ? 30 : -40,
               child: AnimatedOpacity(
                 duration: const Duration(microseconds: 1600),
@@ -49,7 +49,7 @@ class SplshScreen extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 26,
                           fontWeight: FontWeight.w900,
-                          fontFamily: 'Montserrat-SemiBold\n'),
+                          fontFamily: 'Montserrat-SemiBold'),
                     ),
                     Text(
                       "possibilities and innovation!\n",

@@ -14,20 +14,23 @@ class LoginForm extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextFormField(
+              keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
                   prefixIcon: Icon(Icons.person_outline_outlined),
                   labelText: "Email",
-                  hintText: "Email",
+                  // hintText: "Email",
                   border: OutlineInputBorder()),
             ),
             const SizedBox(
               height: 10,
             ),
             TextFormField(
+              keyboardType: TextInputType.visiblePassword,
+              obscureText: true,
               decoration: const InputDecoration(
                   prefixIcon: Icon(Icons.fingerprint),
                   labelText: "Password",
-                  hintText: "Password",
+                  // hintText: "Password",
                   border: OutlineInputBorder(),
                   suffixIcon: IconButton(
                     onPressed: null,
@@ -40,7 +43,9 @@ class LoginForm extends StatelessWidget {
             Align(
               alignment: Alignment.centerRight,
               child: TextButton(
-                  onPressed: () {}, child: const Text("Forget Password")),
+                onPressed: () {},
+                child: const Text("Forget Password"),
+              ),
             ),
             SizedBox(
               width: double.infinity,
